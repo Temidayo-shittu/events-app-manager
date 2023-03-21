@@ -47,8 +47,3 @@ iv. View a list of all the registered attendees for each event.
 -   GET /retrieveEventsAttendees/:eventId - To get the list of registered attendees for each event
 
 ```
-## Mailtrap Login Details
-
-```
-- username: shittutemidayo16@gmail.com
-- password: physiotherapist

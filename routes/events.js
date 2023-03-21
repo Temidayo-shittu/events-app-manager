@@ -1,5 +1,6 @@
 const _= require('lodash')
 const { Event,validate }= require('../models/event')
+const { Organiser } = require("../models/organiser");
 const {Report,validateReport}= require('../models/report')
 const mongoose= require('mongoose')
 const express= require('express');
@@ -29,7 +30,8 @@ router.post('/', VerifyToken, async(req,res)=>{
        location: req.body.location,
        description: req.body.description,
        status: status,
-       
+       organiserId: req.body._id,
+       organiserName: req.body.organiserName  
    })
     event= await event.save()
     res.send(event)
@@ -61,7 +63,7 @@ router.get('/reports', VerifyToken, async (req,res)=>{
     const event = await Event.findById(req.body.eventId);
     if(!event) return res.status(400).send('The event with the given ID not found')
    const attendeeCount = await Attendee.countDocuments({ eventId: req.body.eventId });
-
+   
     let report= new Report({
         name: event.name,
         date: event.date,
@@ -82,7 +84,9 @@ router.put('/:id', VerifyToken, async (req,res)=>{
         name: req.body.name,
         date: req.body.date,
         location: req.body.location,
-        description: req.body.description
+        description: req.body.description,
+        organiserId: req.body._id,
+       organiserName: req.body.organiserName  
     }, {new: true})
     
 
@@ -103,5 +107,6 @@ router.get('/:id', VerifyToken, async (req,res)=>{
     if(!event) res.status(404).send('The event with the given ID was not found')
     res.send(event)
     })
+
 
 module.exports= router;

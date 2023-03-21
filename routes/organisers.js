@@ -43,8 +43,8 @@ router.post("/", async (req, res) => {
     .send(_.pick(organiser, ["_id", "name", "email"]));
 });
 
-//FOR DELETING A NEW EVENT
-router.delete('/:me', [VerifyToken,admin], async (req,res)=>{
+//FOR DELETING AN ORGANISER
+router.delete('/:me', VerifyToken, async (req,res)=>{
   const organiser= await Organiser.findByIdAndRemove(req.organiser._id)//.select( "-password" );
   if (!organiser) return res.status(404).send("The organiser with the given ID was not found.");
   res.send(organiser)

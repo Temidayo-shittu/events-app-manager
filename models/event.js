@@ -1,5 +1,6 @@
 const Joi = require("joi");
 const mongoose = require("mongoose");
+const {organiserSchema}= require('./organiser')
 
 const eventSchema= new mongoose.Schema({
   name: {
@@ -26,7 +27,15 @@ const eventSchema= new mongoose.Schema({
   },
   status:{
     type: String
-  }
+  },
+  organiserId: {
+    type: String,
+    required: true
+},
+organiserName:{
+    type: String,
+    required: true
+}
 
 })
 
@@ -37,7 +46,9 @@ function validateEvent(event) {
     name: Joi.string().min(5).required(),
     date: Joi.date(),
     location: Joi.string().min(5).max(255).required(),
-    description: Joi.string().min(5).max(255).required()
+    description: Joi.string().min(5).max(255).required(),
+    _id: Joi.string().min(3).max(255).required(),
+    organiserName: Joi.string().min(3).max(255).required()
   };
   return Joi.validate(event, schema);
 }

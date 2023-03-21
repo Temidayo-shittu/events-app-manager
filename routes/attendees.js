@@ -30,7 +30,7 @@ router.post("/", VerifyToken, async (req, res) => {
     email: req.body.email,
     cityLocation: req.body.cityLocation,
     eventId: req.body._id,
-    eventName: req.body.eventName,
+    eventName: req.body.eventName
   });
 
   attendee = await attendee.save();
@@ -98,6 +98,19 @@ router.get("/:id", async (req, res) => {
     return res.status(404).send("The attendee with the given ID was not found");
   res.send(attendee);
 });
+
+//FOR GETTING LIST OF REGISTERED ATTENDEES
+router.get('/retrieveEventsAttendees/:eventId', VerifyToken, async (req,res)=>{
+  const attendee = await Attendee.find({eventId:req.params.eventId}).sort('fullname');
+  res.send(attendee)
+  
+/*
+ 
+ res.send(attendeeNames)
+ */
+
+  //attendeeNames= await attendeeNames.save()
+})
 
 //NOTE: each module should be responsible for doing one thing.Hence the need for the
 //Single Responsiblity Module Principle

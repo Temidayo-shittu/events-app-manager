@@ -43,7 +43,7 @@ function validateAttendee(attendee){
         email: Joi.string().min(3).max(255).required().email(),
         cityLocation: Joi.string().min(3).max(255).required(),
         _id: Joi.string().min(3).max(255).required(),
-        eventName: Joi.string().min(3).max(255).required(),
+        eventName: Joi.string().min(3).max(255).required()
     }
     return Joi.validate(attendee,schema)
 }

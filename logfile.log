@@ -423,3 +423,156 @@
 {"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T11:33:11.328Z"}
 {"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T11:33:29.446Z"}
 {"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T11:33:30.769Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T12:34:58.944Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T12:35:01.344Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T12:46:38.608Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T12:46:40.344Z"}
+{"message":"Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.organisers index: email_1 dup key: { email: \"torett@gmail.com\" }","stack":"MongoError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.organisers index: email_1 dup key: { email: \"torett@gmail.com\" }\n    at Connection.<anonymous> (C:\\Users\\user\\Documents\\events-management-system-master\\events-management-system-master\\events-management-system-master\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:453:61)\n    at Connection.emit (node:events:390:28)\n    at processMessage (C:\\Users\\user\\Documents\\events-management-system-master\\events-management-system-master\\events-management-system-master\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:456:10)\n    at TLSSocket.<anonymous> (C:\\Users\\user\\Documents\\events-management-system-master\\events-management-system-master\\events-management-system-master\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:625:15)\n    at TLSSocket.emit (node:events:390:28)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:199:23)","ok":0,"code":11000,"codeName":"DuplicateKey","keyPattern":{"email":1},"keyValue":{"email":"torett@gmail.com"},"$clusterTime":{"clusterTime":"7212981786438008836","signature":{"hash":"9RbO+IaGuyu7S7pLpgcYQY6MU3k=","keyId":"7183748164552228866"}},"operationTime":"7212981786438008836","name":"MongoError","level":"error","timestamp":"2023-03-21T12:53:11.032Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T12:56:15.876Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T12:56:20.604Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T12:56:23.903Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T12:56:25.303Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T12:56:33.598Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T12:56:35.088Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T12:56:56.738Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T12:56:58.617Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T12:58:22.017Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T12:58:23.972Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T13:17:34.467Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T13:17:39.657Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T13:17:42.287Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T13:17:43.795Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T13:23:33.755Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T13:23:35.205Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:15:54.858Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:15:56.184Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:16:00.082Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:16:01.257Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:16:03.921Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:16:05.110Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:16:56.618Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:16:57.892Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:17:37.630Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:17:38.756Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:18:58.381Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:18:59.590Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:19:45.542Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:19:46.926Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:19:53.391Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:19:55.277Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:19:56.538Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:20:11.109Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:20:12.370Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:20:19.193Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:20:23.178Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:20:24.817Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:20:30.652Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:20:31.834Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:20:34.627Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:20:35.820Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:20:40.158Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:20:41.329Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:28:27.467Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:28:28.707Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:28:44.038Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:28:45.298Z"}
+{"message":"attendeeNames.save is not a function","stack":"TypeError: attendeeNames.save is not a function\n    at C:\\Users\\user\\Documents\\events-management-system-master\\events-management-system-master\\events-management-system-master\\routes\\events.js:119:40\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","level":"error","timestamp":"2023-03-21T15:30:52.030Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:31:18.235Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:31:19.581Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:32:11.332Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:32:12.499Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T15:32:15.148Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T15:32:16.335Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:02:49.311Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:02:50.708Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:06:02.641Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:06:03.921Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:06:14.960Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:06:16.249Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:06:18.416Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:06:19.614Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:06:35.737Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:06:36.912Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:06:39.004Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:06:40.239Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:06:43.686Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:06:44.930Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:12:24.768Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:12:26.031Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:17:56.784Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:17:58.805Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:23:00.686Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:23:02.009Z"}
+{"message":"Cast to ObjectId failed for value \"{ eventId: '6419ba4e53b20d1544036e5f' }\" (type Object) at path \"_id\" for model \"Attendee\"","stack":"CastError: Cast to ObjectId failed for value \"{ eventId: '6419ba4e53b20d1544036e5f' }\" (type Object) at path \"_id\" for model \"Attendee\"\n    at model.Query.exec (C:\\Users\\user\\Documents\\events-management-system-master\\events-management-system-master\\events-management-system-master\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\user\\Documents\\events-management-system-master\\events-management-system-master\\events-management-system-master\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"{ eventId: '6419ba4e53b20d1544036e5f' }\"","kind":"ObjectId","value":{"eventId":"6419ba4e53b20d1544036e5f"},"path":"_id","reason":{},"valueType":"Object","level":"error","timestamp":"2023-03-21T16:23:28.844Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:28:09.744Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:28:11.087Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:28:53.352Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:28:54.562Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:28:59.292Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:29:00.495Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:30:23.984Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:30:25.243Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:30:31.273Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:30:32.512Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:30:35.074Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:30:36.327Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:30:46.059Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:30:48.093Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:30:49.274Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:30:53.945Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:30:56.337Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:30:57.549Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:31:37.649Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:31:38.945Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:31:53.794Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:31:56.174Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:31:57.340Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:31:59.643Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:32:00.821Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:32:03.000Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:32:04.349Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:32:11.780Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:32:12.957Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:32:57.258Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:32:58.586Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:33:03.850Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:33:05.045Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:33:59.279Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:34:00.662Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:37:38.218Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:37:39.540Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:37:43.984Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:37:45.268Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:37:54.598Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:37:55.803Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:43:02.385Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:43:03.684Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:43:06.539Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:43:09.474Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:43:10.653Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:43:20.767Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:43:21.950Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:44:15.595Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:44:25.879Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:44:28.274Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:44:29.527Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:44:47.806Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:44:49.033Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:46:11.458Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:46:13.300Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:46:14.944Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T16:46:18.079Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T16:46:19.277Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T17:03:37.478Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T17:03:38.778Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T17:04:57.344Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T17:04:58.649Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T17:05:01.282Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T17:05:02.479Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T17:05:21.984Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T17:05:23.283Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T17:08:23.693Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T17:08:24.981Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T17:08:31.381Z"}
+{"level":"info","message":"Listening on port 3000....","timestamp":"2023-03-21T17:08:34.096Z"}
+{"level":"info","message":"Connected to mongodb+srv:shittutemidayo16@gmail.com//:Eternal-life144>@cluster0.barqqss.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-03-21T17:08:35.274Z"}

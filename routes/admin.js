@@ -32,8 +32,8 @@ router.patch('/reject/:id', [VerifyToken, admin], async (req,res)=>{
     }, {new: true})
 
     if(!event) res.status(404).send('The event with the given ID was not found');
-    /*
-    const organiser = await Organiser.findByIdAndUpdate(req.organiser._id,{ email: req.body.email}, { new: true });
+    
+    const organiser =  await Organiser.findById(req.organiser._id).select("-password");
     const options = {
         from: "9f3c9fea2c5d84",
         to: req.body.email,
@@ -44,7 +44,7 @@ router.patch('/reject/:id', [VerifyToken, admin], async (req,res)=>{
         if (err) return console.error(err);
         console.log(info.response);
       });
-      */
+      
     res.send(event)   
 })
 

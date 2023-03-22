@@ -10,4 +10,4 @@ module.exports= function(){
 }
 
     // "db": "mongodb://localhost:27017/events",
-    // shittutemidayo16 Eternal-life144
+    // shittutemidayo16 Eternal-life144 mongodb+srv://shittutemidayo16:Eternal-life144@cluster0.pmkuhol.mongodb.net/test?retryWrites=true&w=majority

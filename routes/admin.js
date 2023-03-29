@@ -35,7 +35,7 @@ router.patch('/reject/:id', [VerifyToken, admin], async (req,res)=>{
     
     const organiser =  await Organiser.findById(req.organiser._id).select("-password");
     const options = {
-        from: "9f3c9fea2c5d84",
+        from: "ee95a60ee7b4e6",
         to: req.body.email,
         subject: "Welcome to the Event Management System",
         text: `Your event has been rejected due to its clash of date with a very important event that cannot be missed`

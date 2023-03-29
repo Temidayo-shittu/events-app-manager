@@ -29,7 +29,7 @@ router.post("/", async (req, res) => {
   organiser = await organiser.save();
   const token = organiser.generateAuthToken();
   const options = {
-    from: "9f3c9fea2c5d84",
+    from: "ee95a60ee7b4e6",
     to: req.body.email,
     subject: "Welcome to the Event Management System",
     text: `You have Successfully Registered as ${organiser.name} ! I hope you have a smooth experience. Here is your token: ${token}`,

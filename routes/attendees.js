@@ -36,7 +36,7 @@ router.post("/", VerifyToken, async (req, res) => {
   attendee = await attendee.save();
 
   const options = {
-    from: "9f3c9fea2c5d84",
+    from: "ee95a60ee7b4e6",
     to: attendee.email,
     subject: "You have been Added to an event",
     text: `Hello ${attendee.fullName}, you have been added to attend this event: ${attendee.eventName}`,
@@ -78,7 +78,7 @@ router.delete("/:id", VerifyToken, async (req, res) => {
       .status(404)
       .send("The attendee with the given ID was not found.");
   const options = {
-    from: "9f3c9fea2c5d84",
+    from: "ee95a60ee7b4e6",
     to: attendee.email,
     subject: "You have been Removed from an event",
     text: `Hello ${attendee.fullName}, you have been removed from attending this event: ${attendee.eventName}`,

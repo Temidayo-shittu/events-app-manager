@@ -47,3 +47,7 @@ iv. View a list of all the registered attendees for each event.
 -   GET /retrieveEventsAttendees/:eventId - To get the list of registered attendees for each event
 
 ```
+## Postman Link
+
+```
+-https://galactic-resonance-793427.postman.co/workspace/Team-Workspace~3d703105-8f79-45f8-8e5c-4afb069d821d/collection/26636754-c5160552-1eaf-4188-92a6-220ef398bc2c?action=share&creator=26636754&ctx=documentation
